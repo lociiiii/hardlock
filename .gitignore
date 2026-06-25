@@ -1,0 +1,35 @@
+# Environment files — contains passwords and secret keys
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Database — contains your personal license/device data
+*.db
+*.sqlite3
+
+# Encrypted game file — distribute separately
+*.enc
+
+# Node modules
+node_modules/
+
+# Vite build output
+dist/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Alembic — don't leak DB connection string via auto-generated files
+# (keep the versions folder but ignore local config overrides)
